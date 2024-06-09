@@ -34,6 +34,7 @@ export function VideoPlayer () {
               playsInline
               preload="metadata"
               controls={false}
+              disablePictureInPicture={true}
               className="video"
               type="video/mp4"
           ></video>
